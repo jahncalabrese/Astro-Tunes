@@ -1,0 +1,101 @@
+/*CSS Style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-image: url("./imgs/gray.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    color: black;
+    text-align: center;
+}
+.container{
+      max-width: 800px;
+      margin: 50px auto;
+}
+p{
+      font-size: 20px;
+      font-family: verdana;
+}
+h1{
+        font-size: 60px;
+        font-family: fantasy;
+        font-weight: 600;
+        color: blueviolet;
+}
+img {
+      width: 100%;
+      max-width: 600px;
+      margin: 20px 0;
+      position: cemter;
+}
+.input-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}  
+input {
+      padding: 10px;
+      font-size: 1em;
+}   
+button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: black;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-top: 570px;
+}
+#loveMessage {
+      font-size: 0.8em;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+}
+/*Daily Horoscope style*/
+#horoscopeDetails{
+        border-style: double;
+        border-color: mediumvioletred;
+        text-align:center;
+        border-width: 5px;
+        background-color: white;
+        margin: 5%;
+        padding: 20px;
+        font-size: 20px;
+}
+#recommendedSong{
+        font-size: 22px;
+        color: Blue;
+}
+#backToEarth{
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+
+    @media (max-width: 1000px) {
+    input{
+        margin-top: 180%;
+        }
+    button{
+        margin-top: 10%;
+        }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 18px;
+    }
+    }
